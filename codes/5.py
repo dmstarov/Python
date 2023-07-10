@@ -1,0 +1,5 @@
+platums=float(input("Kads ir istabas platums?"))
+garums=float(input("Kads ir istabas garums?"))
+augstums=float(input("Kads ir istabas augstums?"))
+tilpums = round(augstums * garums * platums, 2)
+print (f"{tilpums} m3") 
