@@ -1,17 +1,44 @@
-text_1 = input("Enter your text!")
-buffer ="*"*len(text_1)
-print(buffer)
+secret = input("Enter word: ")
+print(secret)
+secret_show=""
 
-text_2 = input("Enter your guess!")
-print(text_2)
-
-for character in text_1:
-    if character == text_2:
-        print(character)
-
-       # text_3 = text_2
-       # buffer += text_1
+for n in secret:
+    if n== " ":
+        secret_show += " "
     else:
-        print("try again")
-       # buffer += text_1
-#print(buffer) 
+        secret_show += "*"
+print(secret_show)
+print(secret)
+
+imput_letter = input("Enter gues: ")
+print(imput_letter)
+result = ""
+
+for n in secret:
+    if n == imput_letter:
+        result += n
+        print(result)
+    elif n== " ":
+        result += " "
+    else:
+        result += "*"
+    
+print(result)
+
+# print(hidden_text)
+ 
+# hidden_text2 = ""
+ 
+# print("Enter a letter")
+ 
+# input_letter = input()
+
+# for letter in some_text:
+#     if letter == input_letter:
+#         hidden_text2 += letter # same as hidden_text2 = hidden_text2 + letter
+#     elif letter == " ":
+#         hidden_text2 += space # same as hidden_text2 = hidden_text2 + space
+#     else:
+#         hidden_text2 += star # same as hidden_text2 = hidden_text2 + star
+ 
+# print(hidden_text2)

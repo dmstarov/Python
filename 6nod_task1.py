@@ -1,16 +1,14 @@
-start= input("Do you want to play? Y/N  ")
-all_entry=[]
+listik=[]
+exit = "q"
 
-while start == "Y":
-    new_entry = float(input("Enter integer or float!"))
-    all_entry.append(new_entry)
-    print(all_entry)
-    start= input("Do you want to play? Y/N  ")
-    if start == "N":
-       print("Buy!")
-
-avg = sum(all_entry) / len(all_entry)
-print(avg)
-
-
+while True:
+    enter= input("Enter float -q to quit: ")
+    if enter == exit:
+        break
+    else:
+        listik.append(float(enter))
+        #my_list.append(float(num))
+        listik.sort()
+        print(f"Pirmie 3 ir {listik[-1:-4:-1]} un pedejie ir{listik[0:3]}")
+        print(f"videja vērtība: {round(sum(listik) / len(listik),2)} Visi skaitļi:{listik}")
 
