@@ -1,5 +1,4 @@
 
-
 def get_char_count(text):
     
     result = {}
