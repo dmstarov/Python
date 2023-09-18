@@ -1,16 +1,22 @@
-# total = 0
-# i = 0
-# while i < 10:
-#     if i % 2 == 0:
-#         continue
-#     total += i
-#     i += 1
+total = 0
+i = 0
+while i < 10:
+    print("oh i is now", i)
+    if i % 2 == 0:    
+        i += 1    
+        total += 1
+        continue
+     
+    else:
+        print("ten")
+        i += 1 
 
-# print(total)
-# print(i)
 
-for c in "kartupelis":
+print(total)
+print(i)
 
-    if c < "i":
+# for c in "kartupelis":
 
-        print(c, end="")
+#    if c < "i":
+
+ #       print(c, end="")

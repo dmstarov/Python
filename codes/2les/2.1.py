@@ -1,5 +1,5 @@
-## 3nod_1
-
+#3nod_1
+#
 # temp = int(input("your temp?"))
 # if temp < 35:
 #     print("nav par aukstu?")
@@ -22,20 +22,20 @@
 
 
 
-# # 4nod_1
-# for n in range(101):
+ # 4nod_1
+#for n in range(101):
 #     if n%7==0 and n%5 ==0:
 #         print("Fizz")
 #     elif n%5==0:
 #         print("Bizz")
 #     elif n%7==0:
-#         print("FizzBizz")
-#     else:
-#         print(n)
+#        print("FizzBizz")
+#    else:
+#        print(n)
         
 # 4nod_2
     
-height = int(input("Enter height of this stuff:"))
+height = int(input("Enter height of this stuff x > 0:"))
 i = 1
  
 while height:

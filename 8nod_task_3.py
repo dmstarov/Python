@@ -16,6 +16,6 @@ def clean_dict_values(d, v_list):
                 del d[k]
     return d 
 
-print(clean_dict_values({'a':5,'b':6,'c':5}, [3,4,5]))
+print(clean_dict_values({'a':3,'b':6,'c':5}, [3,4,5]))
 
 
