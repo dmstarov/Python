@@ -8,11 +8,11 @@ refT_url = "/api/v2/token/refresh/"
 #Mandatory to enter secret_id variable.
 secret_id = (input("Enter your secret_id: "))
 #for testing purposes we can define variable..
-#secret_id = "c78089f7-d4c7-4d73-9f08-32fa242c5c50" #for testing purposes.
+#secret_id = "" #for testing purposes.
 #Mandatory to enter secret_id variable.
 secret_key = (input("Enter your secret_key: "))
 #for testing purposes we can define variable..
-#secret_key = "358bb5daf444ddd564b8d41dbb5043addd705b1d15a4ad3b45eb30269beb94a011dff143608d520bd2c4fa936c5ab4116ef4bf9148f77271ddec2fa79358445f"
+#secret_key = ""
 empty_json={
   "access": "string",
   "access_expires": 0,
