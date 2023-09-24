@@ -23,7 +23,7 @@ empty_json={
           
 def new_token():
          # Firstly we check fiel, if it is empty we do not check token, or token expertion. Than we will create new token.
-         f = open("user_data.json","w") # creating file to store user data.
+         f = open("user_data.json","a") # creating file to store user data.
          check_file = os.path.getsize("user_data.json")
          if(check_file == 0):
             print("No user data - requesting NEW token.")
